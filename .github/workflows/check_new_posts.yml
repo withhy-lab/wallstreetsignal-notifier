@@ -2,7 +2,7 @@ name: Check new posts and notify Telegram
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch: {}
 
 permissions:
